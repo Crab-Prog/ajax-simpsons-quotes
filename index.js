@@ -17,7 +17,11 @@ function fetchSimpsonQuotesJSON() {
           <p>"${quotes[0].characterDirection}"</p>
         `;
         document.querySelector('#simpson-quote').innerHTML = quotesHtml;
+
+        
       });
+        const button = document.querySelector('.button')
+        button.addEventListener("click", () => fetchSimpsonQuotesJSON())
   }
   
   fetchSimpsonQuotesJSON();
