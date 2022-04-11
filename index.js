@@ -20,9 +20,10 @@ function fetchSimpsonQuotesJSON() {
 
         
       });
-        const button = document.querySelector('.button')
-        button.addEventListener("click", () => fetchSimpsonQuotesJSON())
+
   }
   
   fetchSimpsonQuotesJSON();
   
+          const button = document.querySelector('.button')
+        button.addEventListener("click", () => fetchSimpsonQuotesJSON())
